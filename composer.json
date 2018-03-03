@@ -1,0 +1,24 @@
+{
+    "name": "venter/composer-test",
+    "description": "this is myTest",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hermite0819",
+            "email": "hermite@nongline.com"
+        }
+    ],
+    "minimum-stability": "dev",
+  "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
